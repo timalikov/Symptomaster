@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SignUp" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            style="@style/wrapper" >
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/TableColH"
+                        android:text="@string/first_name" />
+
+                    <EditText
+                        android:id="@+id/signup_firstname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="flagNoExtractUi" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/TableColH"
+                        android:text="@string/last_name" />
+
+                    <EditText
+                        android:id="@+id/signup_lastname"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:imeOptions="flagNoExtractUi" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/TableColH"
+                        android:text="@string/email" />
+
+                    <EditText
+                        android:id="@+id/signup_email"
+                        android:layout_width="@dimen/empty_textbox"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="textEmailAddress" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/TableColH"
+                        android:text="@string/gender" />
+
+                    <Spinner
+                        android:id="@+id/signup_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/TableColH"
+                        android:text="@string/dob" />
+
+                    <Button
+                        android:id="@+id/signup_dob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="showDatePickerDialog"
+                        android:text="@string/dob_select" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/TableColH"
+                        android:text="@string/height" />
+
+                    <EditText
+                        android:id="@+id/signup_height"
+                        android:layout_width="@dimen/empty_textbox"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="number" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/TableColH"
+                        android:text="@string/weight" />
+
+                    <EditText
+                        android:id="@+id/signup_weight"
+                        android:layout_width="@dimen/empty_textbox"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="number" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/TableColH"
+                        android:text="@string/password" />
+
+                    <EditText
+                        android:id="@+id/signup_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/linearLayout1"
+                        android:layout_alignParentBottom="true"
+                        android:ems="10"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="textPassword" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/TableColH"
+                        android:text="@string/confirm_password" />
+
+                    <EditText
+                        android:id="@+id/signup_confirm_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/linearLayout1"
+                        android:layout_alignParentBottom="true"
+                        android:ems="10"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="textPassword" />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/signup_done_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="@dimen/spacer_xs"
+                android:onClick="@layout/activity_about"
+                android:text="@string/submit" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout-land/activity_sign_up.xml -->

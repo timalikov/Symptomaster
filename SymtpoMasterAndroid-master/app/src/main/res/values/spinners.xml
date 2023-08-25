@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gendersArray">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    
+    <string-array name="symptomsArray">
+        <item>Select</item>
+        <item>Head</item>
+        <item>Torso</item>
+        <item>Pelvis</item>
+        <item>Arms</item>
+        <item>Legs</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/item_hist_date"
+        style="@style/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+
+    <Button
+        android:id="@+id/item_hist_remove"
+        style="@style/button_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/spacer_xs"
+        android:layout_marginTop="@dimen/spacer_xs"
+        android:enabled="false"
+        android:focusable="false"
+        android:height="10dp"
+        android:onClick="removeItem"
+        android:text="@string/remove"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/item_hist_title_result"
+        style="@style/textRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_hist_date"
+        android:text="@string/recommendation_title_cause"
+        android:layout_marginTop="@dimen/spacer_xs" />
+
+    <TextView
+        android:id="@+id/item_hist_result"
+        style="@style/textRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_hist_title_result"
+        android:layout_marginTop="@dimen/spacer_xs" />
+
+    <TextView
+        android:id="@+id/item_hist_sequence"
+        style="@style/textRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_hist_result"
+        android:layout_marginTop="@dimen/spacer_xs" />
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.symptomschecker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.symptomschecker.Welcome"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.symptomschecker.About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.example.symptomschecker.Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.symptomschecker.Welcome" />
+        </activity>
+        <activity
+            android:name="com.example.symptomschecker.SelectSymptom"
+            android:label="@string/title_activity_select_symptom" >
+        </activity>
+        <activity
+            android:name="com.example.symptomschecker.Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.example.symptomschecker.ProfileEdit"
+            android:label="@string/title_activity_profile_edit"
+            android:parentActivityName="com.example.symptomschecker.Profile" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.symptomschecker.Profile" />
+        </activity>
+        <activity
+            android:name="com.example.symptomschecker.SymptomsHistory"
+            android:label="@string/title_activity_symptoms_history" >
+        </activity>
+        <activity
+            android:name="com.example.symptomschecker.SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:parentActivityName="com.example.symptomschecker.Welcome" >
+        </activity>
+        <activity
+            android:name="com.example.symptomschecker.Recommendations"
+            android:label="@string/title_activity_recommendations" >
+        </activity>
+        <activity
+            android:name="com.example.symptomschecker.Emergency"
+            android:label="@string/title_activity_emergency" >
+        </activity>
+        <activity
+            android:name="com.example.symptomschecker.HeaderActivity"
+            android:label="@string/title_activity_header" >
+        </activity>
+        <activity
+            android:name="com.example.symptomschecker.SymptomDrawer"
+            android:label="@string/title_activity_symptom_drawer"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

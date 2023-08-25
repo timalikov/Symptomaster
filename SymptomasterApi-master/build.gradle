@@ -1,0 +1,54 @@
+group 'com.symptomaster'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    //Spring MVC
+    compile 'org.springframework:spring-webmvc:4.2.4.RELEASE'
+
+    //Spring JDBC
+    compile 'org.springframework:spring-jdbc:4.2.4.RELEASE'
+
+    //Connection Pool
+    compile 'c3p0:c3p0:0.9.0.4'
+
+    //Google Gson
+    compile 'com.google.code.gson:gson:2.5'
+
+    //Swagger-core
+    compile 'io.springfox:springfox-swagger2:2.3.1'
+
+    //Swagger-UI
+    compile 'io.springfox:springfox-swagger-ui:2.3.1'
+
+    //Logger
+    compile 'org.slf4j:slf4j-api:1.7.12'
+
+    compile 'com.itextpdf:itextpdf:5.5.6'
+
+    compile 'com.itextpdf.tool:xmlworker:5.5.6'
+
+    compile 'org.xhtmlrenderer:core-renderer:R8'
+
+
+    //Jackson Data-Binder
+    //Need for correct swagger work
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.6.0'
+
+    //test Lib
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile project('symptomcheckerinfra')
+}
+
+
+

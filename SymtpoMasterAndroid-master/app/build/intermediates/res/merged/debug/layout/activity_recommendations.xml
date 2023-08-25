@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Recommendations" >
+
+    <LinearLayout style="@style/wrapper" >
+
+        <TextView
+            android:id="@+id/symptom_result_path"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            style="@style/resCauseWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacer_xs"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/symptom_result_cause_title"
+                style="@style/resCauseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/symptom_result_cause"
+                style="@style/resCauseText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/resRecommendationWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacer_s"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/symptom_result_recommendation_title"
+                style="@style/resRecommendationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/symptom_result_recommendation"
+                style="@style/resRecommendationText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/symptom_button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/spacer_s"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/results_emergency_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/spacer_xs"
+            android:onClick="startEmergencyFragment"
+            android:text="@string/emergency" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container_e"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout><!-- From: file:/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_recommendations.xml -->

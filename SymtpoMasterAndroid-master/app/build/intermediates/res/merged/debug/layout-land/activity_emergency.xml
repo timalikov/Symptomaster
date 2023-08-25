@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EmergencyFragment" >
+
+    <TextView
+        style="@style/textWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/warning_title"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/emergency_message_1"
+        style="@style/textRegularBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/warning_message_1" />
+
+    <TextView
+        android:id="@+id/emergency_name"
+        style="@style/textEmergencyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emergency_message_1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/emergency_message_2"
+        style="@style/textRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emergency_name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/warning_message_2" />
+
+    <Button
+        android:id="@+id/emergency_number"
+        style="@style/textPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emergency_message_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacer_xs"
+        android:onClick="callEmergency" />
+
+    <Button
+        android:id="@+id/emergency_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emergency_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacer_xs"
+        android:onClick="closeEmergencyFragment"
+        android:text="@string/no" />
+
+</RelativeLayout><!-- From: file:/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout-land/activity_emergency.xml -->

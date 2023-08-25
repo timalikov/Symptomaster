@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/assets"><file name="symptoms.sqlite" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/assets/symptoms.sqlite"/></source></dataSet><dataSet config="debug"><source path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/debug/assets"/></dataSet></merger>

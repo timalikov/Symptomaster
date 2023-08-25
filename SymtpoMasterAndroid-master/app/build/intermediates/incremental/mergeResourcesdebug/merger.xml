@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res"><file name="ic_launcher" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_menu_home" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-hdpi/ic_menu_home.png" qualifiers="hdpi" type="drawable"/><file name="ic_menu_share" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-hdpi/ic_menu_share.png" qualifiers="hdpi" type="drawable"/><file name="ic_menu_share" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-ldpi/ic_menu_share.png" qualifiers="ldpi" type="drawable"/><file name="ic_launcher" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_menu_home" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-mdpi/ic_menu_home.png" qualifiers="mdpi" type="drawable"/><file name="ic_menu_share" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-mdpi/ic_menu_share.png" qualifiers="mdpi" type="drawable"/><file name="male" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-mdpi/male.png" qualifiers="mdpi" type="drawable"/><file name="male_arms" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-mdpi/male_arms.png" qualifiers="mdpi" type="drawable"/><file name="male_head" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-mdpi/male_head.png" qualifiers="mdpi" type="drawable"/><file name="male_legs" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-mdpi/male_legs.png" qualifiers="mdpi" type="drawable"/><file name="male_none" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-mdpi/male_none.png" qualifiers="mdpi" type="drawable"/><file name="male_pelvis" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-mdpi/male_pelvis.png" qualifiers="mdpi" type="drawable"/><file name="male_torso" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-mdpi/male_torso.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="ic_menu_share" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xhdpi/ic_menu_share.png" qualifiers="xhdpi" type="drawable"/><file name="male" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xhdpi/male.png" qualifiers="xhdpi" type="drawable"/><file name="male_arms" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xhdpi/male_arms.png" qualifiers="xhdpi" type="drawable"/><file name="male_head" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xhdpi/male_head.png" qualifiers="xhdpi" type="drawable"/><file name="male_legs" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xhdpi/male_legs.png" qualifiers="xhdpi" type="drawable"/><file name="male_none" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xhdpi/male_none.png" qualifiers="xhdpi" type="drawable"/><file name="male_pelvis" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xhdpi/male_pelvis.png" qualifiers="xhdpi" type="drawable"/><file name="male_torso" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xhdpi/male_torso.png" qualifiers="xhdpi" type="drawable"/><file name="screenshot" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xhdpi/screenshot.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_menu_home" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/drawable-xxhdpi/ic_menu_home.png" qualifiers="xxhdpi" type="drawable"/><file name="activity_about" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_about.xml" qualifiers="" type="layout"/><file name="activity_emergency" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_emergency.xml" qualifiers="" type="layout"/><file name="activity_profile" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_profile.xml" qualifiers="" type="layout"/><file name="activity_profile_edit" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_profile_edit.xml" qualifiers="" type="layout"/><file name="activity_recommendations" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_recommendations.xml" qualifiers="" type="layout"/><file name="activity_select_symptom" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_select_symptom.xml" qualifiers="" type="layout"/><file name="activity_sign_up" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_sign_up.xml" qualifiers="" type="layout"/><file name="activity_symptom_drawer" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_symptom_drawer.xml" qualifiers="" type="layout"/><file name="activity_symptoms_history" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_symptoms_history.xml" qualifiers="" type="layout"/><file name="activity_welcome" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/activity_welcome.xml" qualifiers="" type="layout"/><file name="history_item" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/history_item.xml" qualifiers="" type="layout"/><file name="symptom_child_item" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout/symptom_child_item.xml" qualifiers="" type="layout"/><file name="activity_emergency" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout-land/activity_emergency.xml" qualifiers="land" type="layout"/><file name="activity_profile_edit" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout-land/activity_profile_edit.xml" qualifiers="land" type="layout"/><file name="activity_recommendations" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout-land/activity_recommendations.xml" qualifiers="land" type="layout"/><file name="activity_select_symptom" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout-land/activity_select_symptom.xml" qualifiers="land" type="layout"/><file name="activity_sign_up" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout-land/activity_sign_up.xml" qualifiers="land" type="layout"/><file name="activity_welcome" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/layout-land/activity_welcome.xml" qualifiers="land" type="layout"/><file name="about" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/menu/about.xml" qualifiers="" type="menu"/><file name="header" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/menu/header.xml" qualifiers="" type="menu"/><file name="welcome" path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/menu/welcome.xml" qualifiers="" type="menu"/><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="ButtonBarContainerTheme">
+        <attr format="reference" name="buttonBarStyle"/>
+        <attr format="reference" name="buttonBarButtonStyle"/>
+    </declare-styleable></file><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values/colors.xml" qualifiers=""><color name="black_overlay">#66000000</color></file><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="spacer_xs">10dp</dimen><dimen name="spacer_l">70dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="spacer_s">20dp</dimen><dimen name="spacer_xl">150dp</dimen><dimen name="empty_textbox">150dp</dimen><dimen name="spacer_m">40dp</dimen></file><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values/spinners.xml" qualifiers=""><string-array name="gendersArray">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array><string-array name="symptomsArray">
+        <item>Select</item>
+        <item>Head</item>
+        <item>Torso</item>
+        <item>Pelvis</item>
+        <item>Arms</item>
+        <item>Legs</item>
+    </string-array></file><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values/strings.xml" qualifiers=""><string name="notification_select_symptom">Touch picture to select are you are concerned with</string><string name="activity_about">The Symptom Checker app comes from medical professionals who have elaborated the complex dependencies between symptoms into a single decision making app. Symptoms Checker knows what questions to ask and when.\n\nTo get started, please enter basic information about yourself along with a history of medical conditions experienced in the past.\n\nTo learn more information visit us at http://zdrav.kz</string><string name="edit">Edit</string><string name="clear_history">Clear History</string><string name="coryright">All right reserved by GTNet</string><string name="dob">DOB</string><string name="dob_select">Select Date</string><string name="confirm_password">Confirm</string><string name="history_message">Click items to edit</string><string name="title_activity_recommendations">Recommendations</string><string name="share">Share</string><string name="height">Height</string><string name="recommendation_title_cause">Possible Cause:</string><string name="sign_in">Login</string><string name="dummy_6">6\' 11"</string><string name="dummy_5">26 July 1987</string><string name="dummy_7">200 lbs</string><string name="recommendation_title_tip">Recommendation:</string><string name="first_name">First Name</string><string name="title_activity_symptom_drawer">SymptomDrawer</string><string name="last_name">Last Name</string><string name="activity_history">History</string><string name="drawer_title">Please select area of concern</string><string name="title_activity_symptoms_history">Symptoms History</string><string name="weight">Weight</string><string name="hello_world">Hello world!</string><string name="gender">Gender</string><string name="title_activity_symptoms_history_edit">Edit History</string><string name="next">Next ></string><string name="app_name">Symptoms Checker</string><string name="back">Back</string><string name="emergency">Call the Emergency!</string><string name="specialists">Find Doctors</string><string name="dummy_2">Smith</string><string name="dummy_1">John</string><string name="dummy_4">Male</string><string name="title_activity_select_symptom">Select Symptom</string><string name="title_activity_profile">Profile</string><string name="dummy_3">jsmith@email.com</string><string name="v_record_updated">Record updated</string><string name="warning_title">Emergency Call</string><string name="warning_message_1">Nearest emergency facilitiy:</string><string name="sign_up">Create New Account</string><string name="warning_message_2">Would you like to call?</string><string name="history_empty">No records found</string><string name="no_location">Could not retrieve your location</string><string name="email">Email</string><string name="title_activity_results">Results</string><string name="title_activity_emergency">Emergency</string><string name="share_subject">Check this out</string><string name="specialists_tip">Get consulting from:</string><string name="v_record_created">Record created</string><string name="recommendations">Recommendations</string><string name="remove">Delete</string><string name="submit">Done</string><string name="title_activity_asd">Asd</string><string name="v_auth_failed">Authentication failed</string><string name="title_activity_select_symptom_next">Select Next Symptom</string><string name="recommendations_tip">Our tips:</string><string name="dummy8">1. Cold - 85%</string><string name="dummy9">10/11/2013</string><string name="welcome">Welcome to Symptoms Checker</string><string name="select_all">Select All</string><string name="title_activity_profile_edit">Profile Edit</string><string name="clear_all">Deselect All</string><string name="activity_account">My Account</string><string name="medical_records">Medical Records</string><string name="yes">Yes</string><string name="dummy21">Eye Pain</string><string name="no">No</string><string name="dummy20">Pressure</string><string name="dummy23">There is 80% chance that you have: \'Cold\'</string><string name="dummy22">Do you have temperature?</string><string name="next_step">What do you want to do next?</string><string name="dummy25">2. Dress in layers</string><string name="dummy24">1. Drink hot drinks</string><string name="dummy27">4. Take a shot of vodka with red pepper if you are over 21</string><string name="dummy26">3. Keep you feet dry and warm</string><string name="dummy29">2. Epidemiologist</string><string name="dummy28">1. Physician</string><string name="title_activity_sign_up">Sign Up</string><string name="about_us">Learn more about the product ></string><string name="action_settings">Settings</string><string name="title_activity_header">HeaderActivity</string><string name="password">Password</string><string name="dummy10">2. Allergy - 77%</string><string name="edit_profile">Edit Profile</string><string name="dummy12">3. Influenza - 60%</string><string name="title_activity_specialists">Specialists</string><string name="dummy11">09/12/2013</string><string name="dummy14">4. Cold - 90%</string><string name="v_pass_not_match">Passwords don\'t match</string><string name="v_auth_success">Authentication success</string><string name="dummy13">09/05/2013</string><string name="dummy16">fill in your data</string><string name="select_symptom">Please select a symptom:</string><string name="dummy15">08/25/2013</string><string name="dummy18">Headache</string><string name="dummy17">Please describe your problem:</string><string name="dummy19">Dizziness</string><string name="emerg_call">Call Emergency</string><string name="activity_logout">Logout</string><string name="title_activity_about">About Symptom Checker</string><string name="activity_home">Home</string><string name="title_activity_select_symptom_next_next">Select Next Symptom</string></file><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values/strings_activity_login.xml" qualifiers=""><string name="prompt_email">Email</string><string name="action_sign_in_register"><b>Sign in</b> or register</string><string name="action_sign_in_short">Sign in</string><string name="error_field_required">This field is required</string><string name="error_incorrect_password">This password is incorrect</string><string name="title_activity_login">Sign in</string><string name="prompt_password">Password</string><string name="error_invalid_password">This password is too short</string><string name="action_forgot_password">Recover lost password</string><string name="error_invalid_email">This email address is invalid</string><string name="login_progress_signing_in">Signing in…</string></file><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values/styles.xml" qualifiers=""><style name="resCauseTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+    </style><style name="resRecommendationWrapper">
+        <item name="android:background">#AA0000</item>
+    </style><style name="textRegularBold">
+        <item name="android:textColor">#4b4b4b</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style><style name="textEmergencyName">
+        <item name="android:textColor">#600000</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style><style name="textPhone">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#990000</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">20dp</item>
+    </style><style name="resCauseWrapper">
+        <item name="android:background">#990000</item>
+    </style><style name="resCauseText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffff00</item>
+        <item name="android:textSize">18sp</item>
+    </style><style name="resRecommendationTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+    </style><style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style><style name="textWarning">
+        <item name="android:textColor">#600000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="ButtonBarButton"/><style name="TableCol">
+        <item name="android:padding">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="wrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">10dp</item>
+    </style><style name="TableColH">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="h1">
+        <item name="android:textColor">#669900</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="button_learn_more">
+        <item name="android:background">#00000000</item>
+        <item name="android:textColor">#000099</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="button_remove">
+        <item name="android:background">#990000</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="symptomChild">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4b4b4b</item>
+        <item name="android:textSize">18sp</item>
+    </style><style name="resRecommendationText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style><style name="h2">
+        <item name="android:textColor">#669900</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="textResults">
+        <item name="android:textColor">#600000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="textRegular">
+        <item name="android:textColor">#4b4b4b</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style></file><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values-large/styles.xml" qualifiers="large"><style name="LoginFormContainer">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style></file><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values-sw720dp-land/dimens.xml" qualifiers="sw720dp-land"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="FullscreenTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style><style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style></file><file path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/main/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source><source path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/build/generated/res/rs/debug"/><source path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug"><source path="/Users/dkarmazi/dev/_android/SymptoMasterAndroid/app/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable></configuration></mergedItems></merger>
